@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+
+}
+
+.top{
+display: flex;
+align-items: center;
+gap: 50%;
+}
+
+.arrow{
+    height: 150px;
+    cursor: pointer;background-color: red;
+    /* width: 150px; */
+}
