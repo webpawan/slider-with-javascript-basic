@@ -22,12 +22,17 @@ gap: 50px;
 .arrow{
     font-size: 3rem;
     cursor: pointer;
+    color: white;
 }
 
 .frame{
-    width: 800px;
+    width: 600px;
     height: 500px;
     overflow: hidden;
+}
+.slider{
+    display: flex;
+    transition: all 1s ease-in-out;
 }
 
 .image{
@@ -46,4 +51,5 @@ gap: 50px;
     height: 10px;
     border-radius: 50%;
     border: 1px solid white;
+    cursor: pointer;
 }
